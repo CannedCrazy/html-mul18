@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+	/*Form styles*/
+		form{
+		width: 40vw;
+		margin: 20px auto;
+		border: 1px solid black;
+		padding: 20px;
+		}
+		
+	</style>
+</head>
+
+<body>
+<header>
+  <h1>Contact me!</h1>
+</header>
+<!-- Navigation -->
+<nav> <a href="hello-world.html"target="_self">Hello world</a> <a href="//www.cphbusiness.dk/" target="_blank">My school</a> <a href="tables.html"target="_self">Tables</a> <a href="index.html"target="_self">Home</a> </nav>
+<!--webform-->
+<form action="mailto:cph-eg52@cphbusiness.dk" method="post" enctype="text/plain">
+    <label>Your Name</label>
+  
+  <p>
+    <input type="text" name="name" placeholder="Type your name.." autofocus
+		   required>
+  </p>
+
+  <p>
+    <label>Your Email</label>
+  </p>
+  <p>
+    <input type="email" name="email" placeholder="type a valid mailaddress.." autofocus
+		   required>
+	  <label>Your message:</label>
+  </p>
+	<p><texterea name="comment" placeholder="Your message..."></texterea></p>
+	<p><input type="radio" name="love"></p>
+<input type="submit" value="Submit Form">
+</form>
+</body>
+</html>
