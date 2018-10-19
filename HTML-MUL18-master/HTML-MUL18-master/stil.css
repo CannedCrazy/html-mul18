@@ -1,0 +1,19 @@
+body{
+	font:normal,sans-serif;
+	background-image: url ("images/background.jpg");
+	margin: 0;
+	padding; 0;
+	color: black;
+
+a:link{
+	color: blue;
+	text-decoration: underline;
+}
+a:visited{
+	color: darkgray;
+	text-decoration: underline;
+}
+a:hover{
+	color:yellow
+	text-decoration: none;
+}
